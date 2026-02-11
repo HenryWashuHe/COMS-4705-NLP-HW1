@@ -1,0 +1,36 @@
+{
+  "os":  "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.14.0",
+  "startedAt":  "2026-02-11T03:25:02.389229Z",
+  "program":  "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py",
+  "codePath":  "word2vec/train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/HenryWashuHe/COMS-4705-NLP-HW1.git"
+  },
+  "email":  "sh4421@columbia.edu",
+  "root":  "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec",
+  "host":  "Henrys-MacBook-Pro.local",
+  "executable":  "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/bin/python3",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "215518588928"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M4",
+    "ecpuCores":  6,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "swapTotalBytes":  "8589934592",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "2j53a6km8be61wnw3i1qplypumo6ubld"
+}

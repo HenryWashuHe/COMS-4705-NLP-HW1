@@ -1,0 +1,67 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            0s5cqto6nygpd5rmkoqz1b0qkr2n6424:
+                apple:
+                    ecpuCores: 6
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M4
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "8589934592"
+                codePath: word2vec/train.py
+                codePathLocal: train.py
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "215519010816"
+                email: sh4421@columbia.edu
+                executable: /Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/bin/python3
+                git:
+                    remote: https://github.com/HenryWashuHe/COMS-4705-NLP-HW1.git
+                host: Henrys-MacBook-Pro.local
+                memory:
+                    total: "17179869184"
+                os: macOS-26.2-arm64-arm-64bit-Mach-O
+                program: /Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py
+                python: CPython 3.14.0
+                root: /Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec
+                startedAt: "2026-02-11T03:20:02.338629Z"
+                writerId: 0s5cqto6nygpd5rmkoqz1b0qkr2n6424
+        m: []
+        python_version: 3.14.0
+        t:
+            "1":
+                - 1
+                - 5
+                - 49
+                - 51
+                - 53
+            "2":
+                - 1
+                - 5
+                - 49
+                - 51
+                - 53
+            "3":
+                - 16
+            "4": 3.14.0
+            "5": 0.24.2
+            "8":
+                - 2
+            "12": 0.24.2
+            "13": darwin-arm64
+batch_size:
+    value: 40
+embedding_dim:
+    value: 64
+learning_rate:
+    value: 0.1
+num_epochs:
+    value: 20
+vocab_size:
+    value: 5001

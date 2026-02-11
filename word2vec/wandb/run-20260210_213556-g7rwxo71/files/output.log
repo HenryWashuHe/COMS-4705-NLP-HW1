@@ -1,0 +1,84 @@
+Initial validation loss: 8.516772924467574
+ 20%|█████████████████████████████                                                                                                                    | 3/15 [00:44<02:58, 14.84s/it]
+Train loss: 8.519674301147461
+Train loss: 7.6467485427856445
+Train loss: 7.954581022262573
+Train loss: 8.381202173233032
+Train loss: 9.523819923400879
+Train loss: 9.4645676612854
+Train loss: 10.122734069824219
+Train loss: 10.761677360534668
+Epoch 1, Loss: 9.194963107633468, Val Loss: 11.093981077504713, Time Elapsed: 6.37
+Train loss: 11.74157485961914
+Train loss: 12.043827533721924
+Train loss: 11.940246486663819
+Train loss: 10.925564575195313
+Train loss: 10.648799991607666
+Train loss: 11.187700080871583
+Train loss: 11.644568824768067
+Train loss: 10.719761371612549
+Epoch 2, Loss: 11.1606186009429, Val Loss: 11.412673417911973, Time Elapsed: 6.65
+Train loss: 12.031802749633789
+Train loss: 11.044387531280517
+Train loss: 11.68597240447998
+Train loss: 11.078190994262695
+Train loss: 11.093866348266602
+Train loss: 11.309256458282471
+Train loss: 11.788522720336914
+Train loss: 11.079494380950928
+Epoch 3, Loss: 11.272034845083876, Val Loss: 10.939973359884219, Time Elapsed: 6.44
+Train loss: 11.154272079467773
+Train loss: 11.592359638214111
+Train loss: 10.364890766143798
+Train loss: 10.486088180541993
+Train loss: 10.910949611663819
+Train loss: 10.691985130310059
+Train loss: 10.669967651367188
+Train loss: 11.170248413085938
+Epoch 4, Loss: 10.885034105661886, Val Loss: 10.690475328024043, Time Elapsed: 6.63
+Train loss: 10.9593111038208
+Train loss: 10.693835163116455
+Train loss: 10.587251949310303
+Train loss: 10.161468458175658
+Train loss: 10.078153991699219
+Train loss: 10.284560298919677
+Train loss: 11.129967212677002
+Train loss: 11.275738143920899
+Epoch 5, Loss: 10.816139855958006, Val Loss: 11.010691958804463, Time Elapsed: 6.39
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 277, in <module>
+    train(model, train_dataset, validation_dataset, vocab, wandb_online=use_wandb)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 242, in train
+    reduced_embeddings = reduce_dimensions(model.get_embeddings(), d=2)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/word2vec_utils.py", line 73, in reduce_dimensions
+    reduced_embeddings = tsne.fit_transform(embeddings)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 1136, in fit_transform
+    embedding = self._fit(X)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 1026, in _fit
+    return self._tsne(
+           ~~~~~~~~~~^
+        P,
+        ^^
+    ...<4 lines>...
+        skip_num_points=skip_num_points,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 1094, in _tsne
+    params, kl_divergence, it = _gradient_descent(obj_func, params, **opt_args)
+                                ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 400, in _gradient_descent
+    error, grad = objective(p, *args, **kwargs)
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 281, in _kl_divergence_bh
+    error = _barnes_hut_tsne.gradient(
+        val_P,
+    ...<9 lines>...
+        num_threads=num_threads,
+    )
+KeyboardInterrupt

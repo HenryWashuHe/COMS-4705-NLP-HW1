@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 277, in <module>
+    train(model, train_dataset, validation_dataset, vocab, wandb_online=use_wandb)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 198, in train
+    initial_val_loss = validation_step(model, validation_loader, loss_fn)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 155, in validation_step
+    for inputs, targets in validation_loader:
+                           ^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py", line 741, in __next__
+    data = self._next_data()
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py", line 801, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 80, in __getitem__
+    context.append(sample_tokens[i])
+                   ~~~~~~~~~~~~~^^^
+IndexError: list index out of range

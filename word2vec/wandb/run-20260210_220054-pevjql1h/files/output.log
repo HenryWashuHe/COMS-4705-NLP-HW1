@@ -1,0 +1,262 @@
+Initial validation loss: 8.516772069064054
+  5%|███████▎                                                                                                                                         | 1/20 [00:16<05:04, 16.00s/it]
+Train loss: 8.522454261779785
+Train loss: 7.932378959655762
+Train loss: 9.432431983947755
+Train loss: 8.901499891281128
+Train loss: 11.484694385528565
+Train loss: 10.8724928855896
+Train loss: 11.603625392913818
+Train loss: 11.6526789188385
+Train loss: 12.14313497543335
+Train loss: 12.688145065307618
+Train loss: 13.03392515182495
+Train loss: 14.210963249206543
+Train loss: 15.441400051116943
+Train loss: 13.90841884613037
+Train loss: 14.02976198196411
+Train loss: 14.44638786315918
+Train loss: 13.405357074737548
+Train loss: 13.440209197998048
+Train loss: 16.038116645812988
+Train loss: 14.44719762802124
+Train loss: 14.195324516296386
+Train loss: 16.761624813079834
+Train loss: 14.831234359741211
+Train loss: 13.221621799468995
+Train loss: 15.508531761169433
+Epoch 1, Loss: 13.085440278053284, Val Loss: 15.105847923972389, Time Elapsed: 7.26
+Train loss: 11.666170120239258
+Train loss: 16.140565872192383
+Train loss: 15.426272964477539
+Train loss: 14.199044895172118
+Train loss: 13.528970909118652
+Train loss: 14.35572862625122
+Train loss: 17.030160236358643
+Train loss: 15.054373073577882
+Train loss: 15.01956844329834
+Train loss: 15.001961517333985
+Train loss: 13.750634956359864
+Train loss: 16.246128940582274
+Train loss: 14.296333599090577
+Train loss: 14.426327133178711
+Train loss: 14.23222074508667
+Train loss: 16.55015363693237
+Train loss: 13.687616157531739
+Train loss: 15.884402179718018
+Train loss: 16.63699722290039
+Train loss: 16.553962612152098
+Train loss: 13.606904792785645
+Train loss: 13.245943164825439
+Train loss: 15.354300594329834
+Train loss: 14.587838649749756
+Train loss: 15.703905391693116
+Epoch 2, Loss: 14.800530290412903, Val Loss: 14.923987074765293, Time Elapsed: 7.3
+Train loss: 22.270875930786133
+Train loss: 14.655490970611572
+Train loss: 16.006371879577635
+Train loss: 15.404131031036377
+Train loss: 16.409006309509277
+Train loss: 17.282723426818848
+Train loss: 14.92932710647583
+Train loss: 14.805086517333985
+Train loss: 17.3238862991333
+Train loss: 17.439654922485353
+Train loss: 15.686666679382324
+Train loss: 13.001416110992432
+Train loss: 14.926848983764648
+Train loss: 14.658056545257569
+Train loss: 16.377808380126954
+Train loss: 15.750220012664794
+Train loss: 15.871239376068115
+Train loss: 15.108287382125855
+Train loss: 16.367799377441408
+Train loss: 14.627424621582032
+Train loss: 12.957223892211914
+Train loss: 14.8843563079834
+Train loss: 13.285036659240722
+Train loss: 15.808315181732178
+Train loss: 16.71684694290161
+Epoch 3, Loss: 14.837149118041992, Val Loss: 14.444188682382757, Time Elapsed: 7.25
+Train loss: 16.92460823059082
+Train loss: 14.485734176635741
+Train loss: 13.605249071121216
+Train loss: 15.280247402191161
+Train loss: 14.986626052856446
+Train loss: 15.61404275894165
+Train loss: 14.778155994415282
+Train loss: 14.060985469818116
+Train loss: 14.284059715270995
+Train loss: 13.563333797454835
+Train loss: 16.9145715713501
+Train loss: 13.868054389953613
+Train loss: 14.961710929870605
+Train loss: 13.742541885375976
+Train loss: 14.646058654785156
+Train loss: 13.588665771484376
+Train loss: 14.118409729003906
+Train loss: 13.878994178771972
+Train loss: 12.97229471206665
+Train loss: 16.43178415298462
+Train loss: 14.743556308746339
+Train loss: 15.177889442443847
+Train loss: 15.045266056060791
+Train loss: 15.331722927093505
+Train loss: 16.287469959259035
+Epoch 4, Loss: 14.780200893211365, Val Loss: 14.86079093499617, Time Elapsed: 7.42
+Train loss: 17.568700790405273
+Train loss: 14.401021194458007
+Train loss: 13.491928005218506
+Train loss: 14.670507717132569
+Train loss: 13.39749517440796
+Train loss: 16.240175819396974
+Train loss: 14.371877670288086
+Train loss: 14.403499126434326
+Train loss: 13.978434944152832
+Train loss: 14.028018951416016
+Train loss: 14.763198566436767
+Train loss: 14.395483016967773
+Train loss: 14.764697933197022
+Train loss: 15.99462432861328
+Train loss: 17.408117008209228
+Train loss: 15.034834861755371
+Train loss: 14.542237854003906
+Train loss: 15.365321063995362
+Train loss: 15.644514751434325
+Train loss: 14.514483070373535
+Train loss: 15.700087928771973
+Train loss: 15.253025150299072
+Train loss: 13.766126823425292
+Train loss: 14.6116868019104
+Train loss: 15.748362255096435
+Epoch 5, Loss: 15.036252656364441, Val Loss: 15.741929538033226, Time Elapsed: 7.34
+Train loss: 12.015641212463379
+Train loss: 15.98719825744629
+Train loss: 16.99663896560669
+Train loss: 13.638091659545898
+Train loss: 15.738049125671386
+Train loss: 14.469436931610108
+Train loss: 12.941927528381347
+Train loss: 16.027910709381104
+Train loss: 13.8839674949646
+Train loss: 13.068094635009766
+Train loss: 14.810655403137208
+Train loss: 14.575074195861816
+Train loss: 13.805672454833985
+Train loss: 13.87973403930664
+Train loss: 17.04302406311035
+Train loss: 14.495935726165772
+Train loss: 15.448684215545654
+Train loss: 14.923691558837891
+Train loss: 12.884737014770508
+Train loss: 16.011835765838622
+Train loss: 15.284373950958251
+Train loss: 13.081796169281006
+Train loss: 13.699102306365967
+Train loss: 14.75846061706543
+Train loss: 15.429169368743896
+Epoch 6, Loss: 14.950213856315612, Val Loss: 14.815198403271761, Time Elapsed: 7.23
+Train loss: 22.53353500366211
+Train loss: 14.677888536453247
+Train loss: 15.647315788269044
+Train loss: 15.798047256469726
+Train loss: 16.41953840255737
+Train loss: 16.244792175292968
+Train loss: 16.021872138977052
+Train loss: 15.518060684204102
+Train loss: 15.854502296447754
+Train loss: 15.181627464294433
+Train loss: 15.467706203460693
+Train loss: 14.394139432907105
+Train loss: 16.09361877441406
+Train loss: 14.275997066497803
+Train loss: 16.670408058166505
+Train loss: 15.691461181640625
+Train loss: 14.036737251281739
+Train loss: 15.627426910400391
+Train loss: 14.414481925964356
+Train loss: 15.401413917541504
+Train loss: 14.86831293106079
+Train loss: 17.08364200592041
+Train loss: 14.94032335281372
+Train loss: 14.919378757476807
+Train loss: 15.396216487884521
+Epoch 7, Loss: 15.158318928527832, Val Loss: 15.547670692097057, Time Elapsed: 7.36
+Train loss: 19.836267471313477
+Train loss: 15.52042875289917
+Train loss: 15.961361980438232
+Train loss: 12.742087793350219
+Train loss: 13.613149261474609
+Train loss: 15.119011116027831
+Train loss: 11.747700119018555
+Train loss: 15.70997133255005
+Train loss: 17.641179370880128
+Train loss: 15.967749404907227
+Train loss: 13.993977165222168
+Train loss: 14.57767858505249
+Train loss: 15.781651306152344
+Train loss: 15.145446681976319
+Train loss: 13.885586833953857
+Train loss: 16.086790084838867
+Train loss: 16.303320980072023
+Train loss: 17.15160083770752
+Train loss: 13.801207542419434
+Train loss: 15.97689323425293
+Train loss: 13.484683990478516
+Train loss: 16.6339412689209
+Train loss: 15.605200862884521
+Train loss: 17.348390960693358
+Train loss: 14.690806865692139
+Epoch 8, Loss: 15.533633834457397, Val Loss: 14.618104267987338, Time Elapsed: 7.57
+Train loss: 18.136638641357422
+Train loss: 15.939704132080077
+Train loss: 14.811372375488281
+Train loss: 13.664499282836914
+Train loss: 14.238350868225098
+Train loss: 14.882288265228272
+Train loss: 13.657209205627442
+Train loss: 14.328529739379883
+Train loss: 15.657697391510009
+Train loss: 14.281798934936523
+Train loss: 14.752014398574829
+Train loss: 16.090740394592284
+Train loss: 16.374678802490234
+Train loss: 16.034491062164307
+Train loss: 14.958362007141114
+Train loss: 14.952855205535888
+Train loss: 15.72052822113037
+Train loss: 14.1607102394104
+Train loss: 16.29819722175598
+Train loss: 15.60105037689209
+Train loss: 15.432286548614503
+Train loss: 16.92478742599487
+Train loss: 12.754235458374023
+Train loss: 15.7773042678833
+Train loss: 14.895738697052002
+Epoch 9, Loss: 15.109072832107543, Val Loss: 15.479639666297219, Time Elapsed: 7.33
+Train loss: 13.546911239624023
+Train loss: 14.25405969619751
+Train loss: 15.327009963989259
+Train loss: 16.884882640838622
+Train loss: 16.364971542358397
+Train loss: 15.232807683944703
+Train loss: 15.639721488952636
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 277, in <module>
+    train(model, train_dataset, validation_dataset, vocab, wandb_online=use_wandb)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 209, in train
+    for inputs, targets in train_loader:
+                           ^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py", line 741, in __next__
+    data = self._next_data()
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py", line 801, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 56, in __getitem__
+    sample_tokens = tokenize(sample['text'])
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/word2vec_utils.py", line 55, in tokenize
+    tokens = text.lower().split()
+KeyboardInterrupt

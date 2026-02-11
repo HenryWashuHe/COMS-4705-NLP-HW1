@@ -1,0 +1,11 @@
+{"time":"2026-02-10T21:47:47.29547-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-10T21:47:47.709263-05:00","level":"INFO","msg":"stream: created new stream","id":"jvcybkyr"}
+{"time":"2026-02-10T21:47:47.709608-05:00","level":"INFO","msg":"handler: started","stream_id":"jvcybkyr"}
+{"time":"2026-02-10T21:47:47.709763-05:00","level":"INFO","msg":"writer: started","stream_id":"jvcybkyr"}
+{"time":"2026-02-10T21:47:47.709773-05:00","level":"INFO","msg":"stream: started","id":"jvcybkyr"}
+{"time":"2026-02-10T21:47:47.710223-05:00","level":"INFO","msg":"sender: started","stream_id":"jvcybkyr"}
+{"time":"2026-02-10T21:50:47.508188-05:00","level":"INFO","msg":"stream: closing","id":"jvcybkyr"}
+{"time":"2026-02-10T21:50:47.873421-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-10T21:50:48.05895-05:00","level":"INFO","msg":"handler: closed","stream_id":"jvcybkyr"}
+{"time":"2026-02-10T21:50:48.059194-05:00","level":"INFO","msg":"sender: closed","stream_id":"jvcybkyr"}
+{"time":"2026-02-10T21:50:48.059233-05:00","level":"INFO","msg":"stream: closed","id":"jvcybkyr"}

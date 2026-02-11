@@ -1,0 +1,234 @@
+Initial validation loss: 8.516771212585615
+  3%|████▊                                                                                                                                            | 1/30 [00:15<07:31, 15.59s/it]
+Train loss: 8.521098136901855
+Train loss: 31.034177017211913
+Train loss: 45.15867233276367
+Train loss: 59.815575408935544
+Train loss: 69.16964492797851
+Train loss: 85.30674781799317
+Train loss: 81.40623588562012
+Train loss: 88.08269348144532
+Train loss: 101.64556045532227
+Train loss: 97.85136260986329
+Train loss: 92.122119140625
+Train loss: 90.60256996154786
+Train loss: 100.0938117980957
+Train loss: 89.3598258972168
+Train loss: 99.44073944091797
+Train loss: 88.7158203125
+Train loss: 102.73124198913574
+Epoch 1, Loss: 79.61523225368964, Val Loss: 96.56124416424078, Time Elapsed: 6.9
+Train loss: 102.66575469970704
+Train loss: 89.06940383911133
+Train loss: 102.2135726928711
+Train loss: 91.81215972900391
+Train loss: 88.2128662109375
+Train loss: 100.42051239013672
+Train loss: 103.38897399902343
+Train loss: 109.59697799682617
+Train loss: 99.57544631958008
+Train loss: 91.69895439147949
+Train loss: 86.52535667419434
+Train loss: 103.42238922119141
+Train loss: 96.3661865234375
+Train loss: 88.73377723693848
+Train loss: 94.27520027160645
+Train loss: 95.43356628417969
+Train loss: 95.56458435058593
+Epoch 2, Loss: 95.80462634356063, Val Loss: 94.50727028288048, Time Elapsed: 7.29
+Train loss: 96.78198547363282
+Train loss: 82.12159843444825
+Train loss: 90.44176788330078
+Train loss: 97.41828727722168
+Train loss: 101.18567352294922
+Train loss: 90.1650276184082
+Train loss: 91.63068542480468
+Train loss: 101.08185005187988
+Train loss: 89.95925712585449
+Train loss: 97.83028945922851
+Train loss: 94.9268310546875
+Train loss: 85.278560256958
+Train loss: 91.64716720581055
+Train loss: 91.79041366577148
+Train loss: 86.12778816223144
+Train loss: 83.56028747558594
+Train loss: 96.3982666015625
+Epoch 3, Loss: 94.46904987364954, Val Loss: 91.57146459054557, Time Elapsed: 6.76
+Train loss: 91.43803825378419
+Train loss: 87.77318267822265
+Train loss: 89.5778579711914
+Train loss: 97.88374938964844
+Train loss: 95.14901657104492
+Train loss: 101.97775039672851
+Train loss: 90.45674743652344
+Train loss: 106.3781867980957
+Train loss: 88.06776237487793
+Train loss: 84.9840633392334
+Train loss: 93.8136001586914
+Train loss: 89.3585765838623
+Train loss: 87.0844741821289
+Train loss: 93.2265781402588
+Train loss: 95.83549118041992
+Train loss: 104.4883487701416
+Epoch 4, Loss: 92.8565607820361, Val Loss: 90.24244236751214, Time Elapsed: 6.78
+Train loss: 85.03213615417481
+Train loss: 87.72233772277832
+Train loss: 100.20538558959962
+Train loss: 86.94445419311523
+Train loss: 85.52398223876953
+Train loss: 82.55201683044433
+Train loss: 77.92022857666015
+Train loss: 94.10436325073242
+Train loss: 100.80874633789062
+Train loss: 103.1599136352539
+Train loss: 90.75723419189453
+Train loss: 94.66324081420899
+Train loss: 91.88967361450196
+Train loss: 86.05597457885742
+Train loss: 92.9748046875
+Train loss: 88.7559944152832
+Train loss: 107.76685752868653
+Epoch 5, Loss: 93.29562732167922, Val Loss: 95.97128747009776, Time Elapsed: 6.91
+Train loss: 96.31729240417481
+Train loss: 96.6830924987793
+Train loss: 104.3083282470703
+Train loss: 91.50863838195801
+Train loss: 104.26761627197266
+Train loss: 84.13108444213867
+Train loss: 88.66299476623536
+Train loss: 92.39680786132813
+Train loss: 88.55602340698242
+Train loss: 82.66036872863769
+Train loss: 93.92294387817383
+Train loss: 90.87369270324707
+Train loss: 92.72377243041993
+Train loss: 96.63428840637206
+Train loss: 88.3065258026123
+Train loss: 80.95507316589355
+Train loss: 86.83553047180176
+Epoch 6, Loss: 91.50962920437763, Val Loss: 92.24548539413743, Time Elapsed: 6.84
+Train loss: 102.6370750427246
+Train loss: 84.73649215698242
+Train loss: 94.57331237792968
+Train loss: 103.03928489685059
+Train loss: 79.61317825317383
+Train loss: 87.98392181396484
+Train loss: 91.60104293823242
+Train loss: 103.84882354736328
+Train loss: 83.57047271728516
+Train loss: 88.30624160766601
+Train loss: 90.50436019897461
+Train loss: 95.52937545776368
+Train loss: 90.58450317382812
+Train loss: 99.99131851196289
+Train loss: 86.48764495849609
+Train loss: 98.29575576782227
+Epoch 7, Loss: 92.5135388434398, Val Loss: 94.37575681722781, Time Elapsed: 6.82
+Train loss: 98.37020874023438
+Train loss: 98.12295150756836
+Train loss: 99.42190437316894
+Train loss: 88.9173797607422
+Train loss: 86.84098052978516
+Train loss: 101.89378814697265
+Train loss: 92.33475303649902
+Train loss: 92.9170310974121
+Train loss: 109.55549545288086
+Train loss: 114.68362884521484
+Train loss: 87.84494476318359
+Train loss: 89.3143985748291
+Train loss: 95.00450592041015
+Train loss: 90.68183631896973
+Train loss: 87.53172225952149
+Train loss: 84.7285587310791
+Train loss: 84.8421646118164
+Epoch 8, Loss: 96.6059746745109, Val Loss: 89.46365055011469, Time Elapsed: 6.81
+Train loss: 92.69688453674317
+Train loss: 90.81842765808105
+Train loss: 80.44134902954102
+Train loss: 89.02254066467285
+Train loss: 86.72430763244628
+Train loss: 82.77945480346679
+Train loss: 96.38473281860351
+Train loss: 90.20390014648437
+Train loss: 86.0167194366455
+Train loss: 87.93246765136719
+Train loss: 93.2492603302002
+Train loss: 91.47247200012207
+Train loss: 91.62427253723145
+Train loss: 93.31466827392578
+Train loss: 82.73014335632324
+Train loss: 96.22579574584961
+Train loss: 102.06615905761718
+Epoch 9, Loss: 92.19359953616576, Val Loss: 95.38136743654673, Time Elapsed: 6.84
+Train loss: 83.68402442932128
+Train loss: 87.14992065429688
+Train loss: 94.21439323425292
+Train loss: 92.12187995910645
+Train loss: 95.63797378540039
+Train loss: 100.34506607055664
+Train loss: 87.17847023010253
+Train loss: 110.4981788635254
+Train loss: 104.50803070068359
+Train loss: 86.93139038085937
+Train loss: 84.44098739624023
+Train loss: 91.03359756469726
+Train loss: 93.88065719604492
+Train loss: 94.76502723693848
+Train loss: 98.22157974243164
+Train loss: 88.24465446472168
+Epoch 10, Loss: 93.39128634081533, Val Loss: 92.13844789925973, Time Elapsed: 6.83
+Train loss: 75.24281311035156
+Train loss: 104.24740028381348
+Train loss: 103.42246932983399
+Train loss: 94.24279022216797
+Train loss: 104.80765228271484
+Train loss: 116.30657501220703
+Train loss: 88.8659049987793
+Train loss: 87.1838535308838
+Train loss: 99.12375411987304
+Train loss: 90.38497009277344
+Train loss: 95.99655227661133
+Train loss: 84.43078079223633
+Train loss: 98.83735504150391
+Train loss: 101.75755348205567
+Train loss: 78.0313762664795
+Train loss: 94.4554832458496
+Train loss: 94.7464412689209
+Epoch 11, Loss: 95.13205589930598, Val Loss: 92.25201535549735, Time Elapsed: 6.82
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 277, in <module>
+    train(model, train_dataset, validation_dataset, vocab, wandb_online=use_wandb)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/train.py", line 242, in train
+    reduced_embeddings = reduce_dimensions(model.get_embeddings(), d=2)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/word2vec/word2vec_utils.py", line 73, in reduce_dimensions
+    reduced_embeddings = tsne.fit_transform(embeddings)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 1136, in fit_transform
+    embedding = self._fit(X)
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 1026, in _fit
+    return self._tsne(
+           ~~~~~~~~~~^
+        P,
+        ^^
+    ...<4 lines>...
+        skip_num_points=skip_num_points,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 1094, in _tsne
+    params, kl_divergence, it = _gradient_descent(obj_func, params, **opt_args)
+                                ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 400, in _gradient_descent
+    error, grad = objective(p, *args, **kwargs)
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Desktop/Classes/2026 Spring/NLP/Homeworks/HW1/hw1/.venv/lib/python3.14/site-packages/sklearn/manifold/_t_sne.py", line 281, in _kl_divergence_bh
+    error = _barnes_hut_tsne.gradient(
+        val_P,
+    ...<9 lines>...
+        num_threads=num_threads,
+    )
+KeyboardInterrupt

@@ -1,0 +1,11 @@
+{"time":"2026-02-10T22:20:02.613203-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-10T22:20:02.80454-05:00","level":"INFO","msg":"stream: created new stream","id":"onfu7xaw"}
+{"time":"2026-02-10T22:20:02.804823-05:00","level":"INFO","msg":"handler: started","stream_id":"onfu7xaw"}
+{"time":"2026-02-10T22:20:02.80488-05:00","level":"INFO","msg":"writer: started","stream_id":"onfu7xaw"}
+{"time":"2026-02-10T22:20:02.80505-05:00","level":"INFO","msg":"stream: started","id":"onfu7xaw"}
+{"time":"2026-02-10T22:20:02.805069-05:00","level":"INFO","msg":"sender: started","stream_id":"onfu7xaw"}
+{"time":"2026-02-10T22:21:22.12006-05:00","level":"INFO","msg":"stream: closing","id":"onfu7xaw"}
+{"time":"2026-02-10T22:21:22.401538-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-10T22:21:22.555251-05:00","level":"INFO","msg":"handler: closed","stream_id":"onfu7xaw"}
+{"time":"2026-02-10T22:21:22.555431-05:00","level":"INFO","msg":"sender: closed","stream_id":"onfu7xaw"}
+{"time":"2026-02-10T22:21:22.555444-05:00","level":"INFO","msg":"stream: closed","id":"onfu7xaw"}

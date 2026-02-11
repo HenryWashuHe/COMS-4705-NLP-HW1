@@ -1,0 +1,11 @@
+{"time":"2026-02-10T21:33:40.383256-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-10T21:33:40.908569-05:00","level":"INFO","msg":"stream: created new stream","id":"wuhlb24v"}
+{"time":"2026-02-10T21:33:40.908623-05:00","level":"INFO","msg":"handler: started","stream_id":"wuhlb24v"}
+{"time":"2026-02-10T21:33:40.909008-05:00","level":"INFO","msg":"stream: started","id":"wuhlb24v"}
+{"time":"2026-02-10T21:33:40.909207-05:00","level":"INFO","msg":"writer: started","stream_id":"wuhlb24v"}
+{"time":"2026-02-10T21:33:40.909244-05:00","level":"INFO","msg":"sender: started","stream_id":"wuhlb24v"}
+{"time":"2026-02-10T21:33:41.411434-05:00","level":"INFO","msg":"stream: closing","id":"wuhlb24v"}
+{"time":"2026-02-10T21:33:41.897612-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-10T21:33:42.088484-05:00","level":"INFO","msg":"handler: closed","stream_id":"wuhlb24v"}
+{"time":"2026-02-10T21:33:42.088819-05:00","level":"INFO","msg":"sender: closed","stream_id":"wuhlb24v"}
+{"time":"2026-02-10T21:33:42.088841-05:00","level":"INFO","msg":"stream: closed","id":"wuhlb24v"}
