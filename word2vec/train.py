@@ -166,9 +166,9 @@ def train(model, train_dataset, validation_dataset, vocab, wandb_online=True):
     # OOM issues in gradescope's autograder
     ############################################################
     # 5a) hyperparameters and loss function
-    batch_size = 35 #40
-    num_epochs = 25 #20
-    learning_rate = 0.01#0.
+    batch_size = 128 #40
+    num_epochs = 35 #20
+    learning_rate = 0.0007#0.
     loss_fn = torch.nn.CrossEntropyLoss()
     ############################################################
     # STUDENT IMPLEMENTATION END
