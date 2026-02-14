@@ -12,7 +12,6 @@ import random
 import numpy as np
 import time
 import wandb
-import random
 import os
 from tqdm import tqdm
 

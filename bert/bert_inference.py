@@ -48,7 +48,6 @@ def mask_random_tokens(sentences, tokenizer, num_masks_per_sentence=1):
         encoded = tokenizer(sentence, return_tensors=None, add_special_tokens=False)
         input_ids = encoded['input_ids']
         valid_positions = list(range(0, len(input_ids)))
-
         ############################################################
         # STUDENT IMPLEMENTATION START
         # 1. randomly sample num_masks_per_sentence token indices to mask
@@ -64,8 +63,13 @@ def mask_random_tokens(sentences, tokenizer, num_masks_per_sentence=1):
         ############################################################
         # remember num_masks_per_sentence >= 1 (although in this assignment we mostly use 1)
         masked_positions = []
+        masked_positions=random.sample(valid_positions,num_masks_per_sentence)
         masked_sentence = ''
         ground_truth = []
+        for pos in masked_positions:
+            ground_truth.append(tokenizer.convert_ids_to_tokens(input_ids[pos]))
+            input_ids[pos]=tokenizer.mask_token_id
+        masked_sentence=tokenizer.decode(input_ids)
         
         ############################################################
         # STUDENT IMPLEMENTATION END
@@ -117,9 +121,18 @@ def predict_masked_tokens(masked_data, model, tokenizer, top_k=5):
             # top_k_predictions = [["sat", "dog", "mouse", "cat", "bird"]]
             ############################################################
             top_k_predictions = []
-
-            
-
+            input=tokenizer(masked_sentence, return_tensors='pt')
+            output=model(**input)
+            logits=output.prediction_logits
+            for i,token in enumerate(input['input_ids'][0]):
+                res=[]
+                if token==tokenizer.mask_token_id:
+                    pred=logits[0,i,:]
+                    pred_k=torch.topk(pred,k=top_k)
+                    pred_id=(pred_k.indices).tolist()
+                    for id in pred_id:
+                        res.append(tokenizer.convert_ids_to_tokens(id))
+                    top_k_predictions.append(res)
             ############################################################
             # STUDENT IMPLEMENTATION END
             ############################################################
